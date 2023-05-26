@@ -1,6 +1,7 @@
 <mvc:View controllerName="<%= appId %>.controller.Main"
 	displayBlock="true"
 	xmlns="sap.m"
+	xmlns:webc="sap.ui.webc.main"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:macros="sap.fe.macros">
 
@@ -8,15 +9,17 @@
 		showNavButton="false">
 		<content>
 			<VBox>
-				<Button text="{i18n>btnText}"
-					press="sayHello" />
+				<HBox>
+					<webc:Button text="{i18n>btnText}"
+						click="sayHello" />
+				</HBox>
 				<macros:Table metaPath="@com.sap.vocabularies.UI.v1.LineItem"
 					id="macroTable"
 					rowPress=".onRowPressed" />
-			</VBox
+			</VBox>
 		</content>
-		</Page>
+	</Page>
 
 
 
-	</mvc:View>
+</mvc:View>
