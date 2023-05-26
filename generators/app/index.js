@@ -30,7 +30,7 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     if (!this.options.embedded) {
       this.log(
-        yosay(`Welcome to the ${chalk.red("generator-ui5-ts-app")} generator!`)
+        yosay(`Welcome to the Masterclass in AUS ${chalk.red("generator-ui5-ts-app")} generator!`)
       );
     }
 
