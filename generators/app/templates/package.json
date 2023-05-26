@@ -17,10 +17,11 @@
     "<%= tstypes %>": "<%= tstypesVersion %>",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
-    "@ui5/cli": "^3.0.6",
+    "@ui5/cli": "^3",
     "eslint": "^8.37.0",
     "typescript": "^5.0.3",
-    "ui5-middleware-livereload": "^0.8.2",
-    "ui5-tooling-transpile": "^0.5.2"
+    "ui5-middleware-livereload": "latest",
+    "ui5-tooling-transpile": "latest",
+    "ui5-middleware-simpleproxy": "latest"
   }
 }
