@@ -1,10 +1,10 @@
 {
-  "name": "generator-ui5-ts-app",
-  "version": "1.0.1",
+  "name": "generator-ui5-ts-app-aus",
+  "version": "1.0.0",
   "description": "Yeoman-based (sub-)generator for a basic UI5 application based on TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "cd test && yo ../../generator-ui5-ts-app"
+    "test": "cd test && yo ../../generator-ui5-ts-app-aus"
   },
   "keywords": [
     "ui5",
@@ -12,10 +12,10 @@
     "application",
     "yeoman generator"
   ],
-  "author": "Peter Muessig <peter.muessig@sap.com>",
+  "author": "Volker Buzek <volker.buzek@js-soft.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ui5-community/generator-ui5-ts-app.git"
+    "url": "https://github.com/vobu/generator-ui5-ts-app-aus.git"
   },
   "license": "Apache-2.0",
   "dependencies": {
