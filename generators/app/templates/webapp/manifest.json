@@ -32,13 +32,6 @@
   },
 
   "sap.ui5": {
-    "rootView": {
-      "viewName": "<%= appId %>.view.App",
-      "type": "XML",
-      "async": true,
-      "id": "app"
-    },
-
     "dependencies": {
       "minUI5Version": "<%= frameworkVersion %>",
       "libs": {
@@ -103,7 +96,7 @@
           "options": {
             "settings": {
               "viewName": "<%= appId %>.view.Main",
-              "contextPath": "/"
+              "contextPath": "/Beers"
             }
           }
         }
