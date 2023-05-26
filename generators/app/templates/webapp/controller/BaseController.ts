@@ -1,4 +1,4 @@
-import Controller from "sap/ui/core/mvc/Controller";
+import Controller from "sap/fe/core/PageController";
 import UIComponent from "sap/ui/core/UIComponent";
 import AppComponent from "../Component";
 import Model from "sap/ui/model/Model";

@@ -8,8 +8,15 @@ import formatter from "../model/formatter";
 export default class Main extends BaseController {
 	private formatter = formatter;
 
-	public sayHello() : void {
+	sayHello() : void {
 		MessageBox.show("Hello World!");
 	}
+
+	onAddTableItem(): void {
+        this.getView().byId("macroTable").getAggregation("content").getAggregation("_content").getBinding("items").create({
+            FirstName: "Peter",
+            LastName: "Parker"
+        })
+    }
 
 }

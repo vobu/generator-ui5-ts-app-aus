@@ -1,11 +1,11 @@
-import UIComponent from "sap/ui/core/UIComponent";
+import AppComponent from "sap/fe/core/AppComponent";
 import { support } from "sap/ui/Device";
 import models from "./model/models";
 
 /**
  * @namespace <%= appId %>
  */
-export default class Component extends UIComponent {
+export default class Component extends AppComponent {
 
 	public static metadata = {
 		manifest: "json"
